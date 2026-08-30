@@ -1,0 +1,29 @@
+# --- Secrets / credentials ---
+.env
+credentials/service_account.json
+credentials/*.json
+
+# --- Runtime state ---
+state/
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+
+# --- Logs & runtime files ---
+*.log
+dashboard_pid.txt
+dashboard_stdout.log
+dashboard_stderr.log
+
+# --- Generated data ---
+data/
+*.xlsx
+
+# --- OS / IDE ---
+.DS_Store
